@@ -110,3 +110,20 @@ desktop.ini
 *.temp
 *.bak
 *~
+# Historical timestamped evaluation snapshots
+reports/*_summary_20*.csv
+reports/*_summary_20*.md
+reports/leaderboard_20*.csv
+reports/leaderboard_20*.md
+
+# Keep final deployment ONNX exports
+!deployment/fusion_baseline.onnx
+!deployment/fusion_hybrid_xattn.onnx
+
+# Keep final best checkpoints for reproducibility
+!checkpoints/
+checkpoints/*
+!checkpoints/*_best.pth
+
+# Local-only editable presentation
+Project 3.pptx
