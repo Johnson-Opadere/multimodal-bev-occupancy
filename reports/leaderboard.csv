@@ -1,0 +1,7 @@
+Model,Mean IoU,Duration (min)
+Fusion Baseline,0.7195,0.59
+FusionHybridXAttentionModel (RGB + LiDAR + IMU),0.6017,2.68
+Fusion + CBAM,0.5592,1.83
+LiDAR Baseline,0.5577,47.71
+FusionCrossAttentionModel (RGB + LiDAR + IMU),0.3,1.81
+RGB Baseline,0.2909,0.01

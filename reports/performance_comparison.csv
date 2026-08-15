@@ -1,0 +1,7 @@
+Model,IoU,Precision,Recall,F1
+RGB Baseline,0.2909,0.5175,0.4019,0.4479
+LiDAR BEV Baseline,0.5577,0.6793,0.7562,0.7155
+Multimodal Fusion,0.715,0.7847,0.8887,0.8333
+Fusion + CBAM,0.5592,0.6116,0.8667,0.717
+Cross-Attention Fusion,0.3,0.3796,0.6111,0.4609
+Hybrid Cross-Attention,0.6017,0.6497,0.8906,0.7511
